@@ -1,4 +1,4 @@
-numbers_lst = list(map(int, (input("Enter 3 numbers separated by spaces: ").split())))
+numbers_lst = (map(int, (input("Enter 3 numbers separated by spaces: ").split())))
 
 sum_ = sum(numbers_lst)
 print(sum_)
