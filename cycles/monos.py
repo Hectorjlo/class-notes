@@ -7,3 +7,8 @@ for ape in apes:
     print(f"{ape} is an ape. Its name starts with {first_letter}")
     print(f"Its name has {name_length} letters")
 
+# Or
+
+for ape in apes:
+    print(f"{ape} is an ape. Its name starts with {ape[0]}")
+    print(f"Its name has {len(ape)} letters")
