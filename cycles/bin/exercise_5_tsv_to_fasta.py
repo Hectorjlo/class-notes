@@ -1,4 +1,4 @@
-with open("cycles/dna_sequences.txt", "r") as input_file, open("cycles/dna_sequences.fa", "w") as output_file:
+with open("cycles/data/dna_sequences.txt", "r") as input_file, open("cycles/dna_sequences.fa", "w") as output_file:
     for line in input_file:
         columns = (line.strip()).split("\t")
         
