@@ -1,5 +1,5 @@
 # Script for changing a tsv file to a FASTA file format
-with open("cycles/data/dna_sequences.txt", "r") as input_file, open("cycles/dna_sequences.fa", "w") as output_file:
+with open("data/exercises/dna_sequences.txt", "r") as input_file, open("results\exercises\dna_sequences.fa", "w") as output_file:
     for line in input_file:
         columns = (line.strip()).split("\t")
         
