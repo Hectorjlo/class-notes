@@ -1,3 +1,4 @@
+# Script to print the name the first letter and the lenght of the name of a list of apes
 apes = ["Pongo pygmaeus", "Pan troglodytes", "Gorilla gorilla"]
 # apes will move through the list of apes, one at a time
 for ape in apes:

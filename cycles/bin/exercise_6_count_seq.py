@@ -1,3 +1,4 @@
+# Script for counting each character of a file, not taking the lines starting with ">"
 data_file = "cycles/data/fasta_sequence.txt"
 
 with open(data_file, "r") as input_file:

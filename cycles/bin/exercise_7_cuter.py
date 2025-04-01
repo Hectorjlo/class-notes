@@ -1,6 +1,6 @@
+# Script for printing the first 3 characters of a sequence (first codon)
 sequences = (input("Enter a sequence of numbers separated by spaces: ")).split(",")
 
-# print(sequences)
 
 # Comprehension list
 

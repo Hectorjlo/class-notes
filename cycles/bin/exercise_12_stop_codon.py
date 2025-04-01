@@ -1,3 +1,4 @@
+# Script for printing a sequence only it has a stop codon in it
 sequences = (input("Enter a sequences of DNA separated by comas: ").split(","))
 
 

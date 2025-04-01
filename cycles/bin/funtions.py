@@ -1,3 +1,4 @@
+# Using a script to compare and print two lists, using the zip funtion
 sequence = "ACTTGACATTC"
 
 for i, base, in enumerate(sequence):
