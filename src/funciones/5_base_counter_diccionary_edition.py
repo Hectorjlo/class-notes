@@ -1,4 +1,4 @@
-def count_bases(dna, significant_figures):
+def count_bases(dna):
     dna = dna.upper().strip()
     counter = {
         'A': dna.count('A'),
