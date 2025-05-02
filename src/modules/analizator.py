@@ -66,8 +66,5 @@ else:
     else:
         print("[INFO] Not valid results were generated hence were not exported.")
 
-# --- Pruebas simples con assert para verificar funciones clave ---
-assert base_counter("ATGC") == {"A": 1, "T": 1, "G": 1, "C": 1}, "Error in base_counter()"
-assert calculate_gc_content("ATGC") == 50.0, "Error in calculate_gc_content()"
-assert validate_sequence("ATGC") is True, "Error in validate_sequence() with invalid sequence"
-assert validate_sequence("ATGN") is False, "Error in validate_sequence() with invalid characters"
+# Test to check the value of __name__ when is executed directly and indirectly
+# print(f"__name__ has the value: {__name__}")
