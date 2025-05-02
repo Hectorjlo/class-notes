@@ -1,5 +1,5 @@
 # Script for printing the first 3 characters of a sequence (first codon)
-sequences = (input("Enter a sequence of numbers separated by spaces: ")).split(",")
+sequences = (input("Enter sequences of DNA separated by comas: ")).split(",")
 
 
 # Comprehension list
