@@ -1,3 +1,5 @@
+import argparse
+
 def leer_secuencia_desde_archivo(ruta):
     """
     Lee una secuencia de ADN desde un archivo de texto.
@@ -23,8 +25,13 @@ def calcular_contenido_at(secuencia):
 
 if __name__ == "__main__":
 
+    parser = argparse.ArgumentParser(description='File input')
+    parser.add_argument('--input', help='File of input', type=str, required=True) 
+    arguments = parser.parse_args()
+
+
     # Ruta del archivo de entrada
-    archivo_entrada = "secuencia.txt"
+    archivo_entrada = arguments.input
 
     # Leer la secuencia y calcular el contenido de AT
     secuencia = leer_secuencia_desde_archivo(archivo_entrada)
