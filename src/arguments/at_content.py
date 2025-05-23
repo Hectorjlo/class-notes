@@ -27,6 +27,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='File input')
     parser.add_argument('--input', help='File of input', type=str, required=True) 
+    parser.add_argument('--decimals', help='Decimals of precision', type=int, required=False, default=6)
     arguments = parser.parse_args()
 
 
@@ -37,6 +38,6 @@ if __name__ == "__main__":
     secuencia = leer_secuencia_desde_archivo(archivo_entrada)
     contenido_at = calcular_contenido_at(secuencia)
 
-    print(f"Contenido de AT: {contenido_at:.2%}")
+    print(f"Contenido de AT: {contenido_at:.{arguments.decimals}%}")
 
 
